@@ -31,7 +31,7 @@ To address this, I've created the `TrimMultiSpaces` transformer. This removes al
 
 ## Installation
 
-1. **Use `(ttypescript)[https://github.com/cevek/ttypescript]`**: Replace `typescript` with (`ttypescript`)[https://github.com/cevek/ttypescript] as your compiler since the default TypeScript compiler doesn't support transformer plugins.
+1. **Use (ttypescript)[https://github.com/cevek/ttypescript]**: Replace `typescript` with (ttypescript)[https://github.com/cevek/ttypescript] as your compiler since the default TypeScript compiler doesn't support transformer plugins.
 
 2. **Add `globals.d.ts`**: Create a `globals.d.ts` file in your project and add this line of code:
 
