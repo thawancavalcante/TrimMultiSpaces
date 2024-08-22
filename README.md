@@ -9,10 +9,10 @@ For example:
 
 ```typescript
 function yourMethod() {
-  const body = TrimMultiSpaces(`Detail:
+  const body = `Detail:
 Name: ${user.name}
 Age: ${user.age}
-`);
+`;
 }
 ```
 
@@ -21,10 +21,10 @@ While one workaround is to manually remove these spaces using `.replaceAll('  +/
 
 ```typescript
 function yourMethod() {
-  const body = TrimMultiSpaces(`Detail:
+  const body = `Detail:
         Name: ${user.name}
         Age: ${user.age}
-    `).replaceAll("  +/g", "");
+    `.replaceAll("  +/g", "");
 }
 ```
 
